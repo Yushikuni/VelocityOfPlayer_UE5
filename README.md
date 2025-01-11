@@ -11,15 +11,17 @@ This component is in C++ for UE5.4.4
 3. Run 
 
 
-### 
-This Velocity_CharacterMovement component have 2 methods.
-1. GetSpeed() const
-	1. return float
+### Notes:
+The `Velocity_CharacterMovement` component contains two methods.
 
-2. printVelocity()
-	1. return void		
+1. **GetSpeed() const**
+	- Returns a `float` representing the velocity of the character
+
+2. **printVelocity()**
+	- Returns `void`
+	- Prints the velocity on the screen and on `UE_LOG`. This method can be deleted later if no longer needed
 
 	
-Get speed give me a float for calculating velocity on character.
-Print velocity printing velocity on screen and on UE_LOG could be deleted leter.
+The `GetSpeed()` method returns a `float` that can be used to calculate the velocity of the character.
+The `printVelocity()` method prints the velocity to the screen and outputs it to the `UE_LOG`, and it can be removed later if unnecessary.
 
